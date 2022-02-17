@@ -1,5 +1,9 @@
+import TemplateDefault from '../src/templates/Default'
+
 export default function Home() {
   return (
-    <div>INDEX</div>
+    <TemplateDefault>
+      MIOLO
+    </TemplateDefault>
   )
 }
